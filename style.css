@@ -4,28 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(199, 196, 196);
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-.header-ul{
-    text-align: end;
-}
-.header-barra {
-    display: inline-block;
-    background-color: white;
-    margin: auto;
-    height: 3vh;
-    border: solid 1px black;
-    color: black;
-}
-
-ul {
-    text-decoration: none;
-}
 
 
 
