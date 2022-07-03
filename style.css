@@ -7,13 +7,10 @@ body{
     background-color: rgb(180, 179, 179);
 }
 .menu_link{
-    text-align: end;
+    display: flex;
+    justify-content: center;
     margin-top: 75px;
-}
-.link_item{
-    display: inline-block;
     list-style: none;
-
 }
 .link{
     text-decoration: none;
