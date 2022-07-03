@@ -3,36 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-.menu_list {
-    margin-top: 100px;
-    text-align: center;
+body{
+    background-color: rgb(180, 179, 179);
 }
-.list_item {
+.menu_link{
+    text-align: end;
+    margin-top: 75px;
+}
+.link_item{
     display: inline-block;
     list-style: none;
+
 }
-.link {
+.link{
     text-decoration: none;
-    color: inherit;
-    padding: 10px;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.1rem;
+    padding: 10px;
     position: relative;
 }
-link:after {
+.link:before{
     content: "";
     width: 0;
     height: 4px;
-    background-color:rgb(175, 112, 233) ;
+    background-color: rgb(141, 224, 230);
     position: absolute;
     bottom: 0;
-    right: 50%;
-    transition: all .5s;
-    will-change: width;
+    transition: all .75s;
 }
-.link:hover:after {
-    width: 100%;
+.slider_left:before{
+    left: 0;
+}
+.slider_right:before{
     right: 0;
+}
+.link:hover:before{
+    width: 100%;
 }
 
 
